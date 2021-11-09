@@ -82,7 +82,7 @@ msgstr "%(user_name)s zaprasza Cię do obserwowania nowego dokumentu."
 #: code:addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:0
 #, python-format
 msgid "%d Message"
-msgstr ""
+msgstr "%d Wiadomość"
 
 #. module: mail
 #. openerp-web
@@ -214,6 +214,11 @@ msgid ""
 "            Type <b>/command</b> to execute a command.<br>\n"
 "            Type <b>:shortcut</b> to insert a canned response in your message.<br>"
 msgstr ""
+"<br><br>\n"
+"            Wpisz <b>@użytkownik</b>, aby wspomnieć o kimś i przyciągnąć jego uwagę.<br>\n"
+"            Wpisz <b>#kanał</b>, aby wspomnieć o kanale.<br>\n"
+"            Wpisz <b>/polecenie</b>, aby wykonać polecenie.<br>\n"
+"            Wpisz <b>:skrót</b>, aby wstawić gotową odpowiedź do wiadomości.<br>"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
@@ -717,7 +722,7 @@ msgstr "Dodaj kontakty do powiadomienia..."
 #: code:addons/mail/static/src/components/discuss_sidebar/discuss_sidebar.xml:0
 #, python-format
 msgid "Add or join a channel"
-msgstr ""
+msgstr "Dodaj lub dołącz do kanału"
 
 #. module: mail
 #. openerp-web
@@ -1550,7 +1555,7 @@ msgstr ""
 #: code:addons/mail/static/src/components/discuss/discuss.js:0
 #, python-format
 msgid "Create or search channel..."
-msgstr ""
+msgstr "Utwórz lub poszukaj kanał..."
 
 #. module: mail
 #. openerp-web
@@ -1562,7 +1567,7 @@ msgstr "Utworzono"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_search
 msgid "Created By"
-msgstr "Utworzone przez"
+msgstr "Utworzył(a)"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__create_uid
@@ -1586,7 +1591,7 @@ msgstr "Utworzone przez"
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__create_uid
 #: model:ir.model.fields,field_description:mail.field_mail_wizard_invite__create_uid
 msgid "Created by"
-msgstr "Utworzona przez"
+msgstr "Utworzył(a)"
 
 #. module: mail
 #. openerp-web
@@ -1614,7 +1619,7 @@ msgstr "Utworzona przez"
 #: model:ir.model.fields,field_description:mail.field_mail_wizard_invite__create_date
 #, python-format
 msgid "Created on"
-msgstr "Utworzono"
+msgstr "Data utworzenia"
 
 #. module: mail
 #. openerp-web
@@ -2512,7 +2517,7 @@ msgstr "Wyrażenie, które możesz skopiować do jednego z pól szablonu."
 #: code:addons/mail/static/src/components/discuss_sidebar/discuss_sidebar.js:0
 #, python-format
 msgid "Find or create a channel..."
-msgstr ""
+msgstr "Znajdź lub utwórz kanał..."
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_channel_partner__fold_state__folded
@@ -5014,7 +5019,7 @@ msgstr "Kanały publiczne"
 #: code:addons/mail/static/src/components/thread_icon/thread_icon.xml:0
 #, python-format
 msgid "Public channel"
-msgstr ""
+msgstr "Kanał publiczny"
 
 #. module: mail
 #: model:ir.model,name:mail.model_publisher_warranty_contract
@@ -5719,7 +5724,7 @@ msgstr "Pokaż obserwatorów"
 #: code:addons/mail/models/mail_channel.py:0
 #, python-format
 msgid "Show a helper message"
-msgstr ""
+msgstr "Pokaż wiadomość pomocnika"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_search
@@ -5788,7 +5793,7 @@ msgstr "Oznaczone gwiazdką"
 #: code:addons/mail/static/src/components/discuss_sidebar/discuss_sidebar.xml:0
 #, python-format
 msgid "Start a conversation"
-msgstr ""
+msgstr "Rozpocznij konwersację"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__state

@@ -54,9 +54,9 @@ class ProductProduct(models.Model):
             if move.state == 'cancel':
                 continue
             bom_line = move.bom_line_id
-            if bom_line:
+            if bom_line in bom_lines:
                 bom_line_data = bom_lines[bom_line]
-                line_qty = bom_line_data['qty']
+                line_qty = bom_line.product_uom_id._compute_quantity(bom_line_data['qty'], bom_line.product_id.uom_id)
             else:
                 # bom was altered (i.e. bom line removed) after being used
                 line_qty = move.product_qty

@@ -40,7 +40,7 @@ msgstr "#{'Unfold' if c.id in category.parents_and_self.ids else 'Fold'}"
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 #: model_terms:ir.ui.view,arch_db:website_sale.payment
 msgid "&amp; Shipping"
-msgstr "&amp; Envío"
+msgstr "y envío"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.searchbar_input_snippet_options
@@ -1592,7 +1592,7 @@ msgstr "Nombre de la imagen"
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_res_config_settings__module_website_sale_stock
 msgid "Installs the \"Website Delivery Information\" application"
-msgstr "Instala la aplicación \"Información de envío en el sitio web\""
+msgstr "Instalar la aplicación \"Información de envío en el sitio web\""
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/main.py:0
@@ -1781,7 +1781,7 @@ msgstr "Administrar la disponibilidad de los productos"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Manage promotion &amp; coupon programs"
-msgstr "Administrar promociones &amp; programas de cupones"
+msgstr "Administrar promociones y programas de cupones"
 
 #. module: website_sale
 #. openerp-web
@@ -2020,7 +2020,7 @@ msgstr "Opciones vinculadas"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
 msgid "Or scan me with your banking app."
-msgstr "O escaneeme desde su aplicación bancaria."
+msgstr "O escanéeme desde su aplicación bancaria."
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
@@ -2088,7 +2088,7 @@ msgstr "Órdenes a facturar"
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:0
 #, python-format
 msgid "Orders/Day"
-msgstr "Órdenes / día"
+msgstr "Órdenes/día"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_payment_acquirer_onboarding_wizard__paypal_pdt_token
@@ -2217,7 +2217,7 @@ msgstr "Precio"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__pricelist_ids
 msgid "Price list available for this Ecommerce/Website"
-msgstr "Lista de precios disponible para esta tienda virtual / sitio web"
+msgstr "Lista de precios disponible para esta tienda virtual/sitio web"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_pricelist
@@ -2865,12 +2865,12 @@ msgstr "Fuentes"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "State / Province"
-msgstr "Estado / Provincia"
+msgstr "Estado/Provincia"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "State / Province..."
-msgstr "Estado / Provincia..."
+msgstr "Estado/Provincia..."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_company__website_sale_onboarding_payment_acquirer_state
@@ -2951,7 +2951,7 @@ msgstr "Técnico: se utiliza para calcular pricelist_ids"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.terms
 msgid "Terms &amp;amp; Conditions"
-msgstr "Términos &amp;amp; condiciones"
+msgstr "Términos y condiciones"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_custom_text
@@ -3539,7 +3539,7 @@ msgstr "precio (alto a bajo)"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.searchbar_input_snippet_options
 msgid "price (low to high)"
-msgstr "precio (de bajo a alto)"
+msgstr "precio (bajo a alto)"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.searchbar_input_snippet_options
@@ -3549,7 +3549,7 @@ msgstr "productos"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_sale_note
 msgid "terms &amp; conditions"
-msgstr "términos &amp; condiciones"
+msgstr "términos y condiciones"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation

@@ -26,7 +26,6 @@
 # Jesse Garza <jga@odoo.com>, 2020
 # Alejandro Pérez Torregrosa <alejandropereztorregrosa@gmail.com>, 2020
 # Paulina Rodriguez <pauli.rodriguez.c@gmail.com>, 2020
-# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2020
 # Rick Hunter <rick.hunter.ec@gmail.com>, 2020
 # Antonio Trueba, 2020
 # Jose Alejandro Echeverri Valencia <josealejandroeche@gmail.com>, 2020
@@ -43,6 +42,9 @@
 # Esteka Digital <social@esteka.com>, 2021
 # Xabi Spacebiker <xabispacebiker@gmail.com>, 2021
 # Miguel Guzmán, 2021
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2021
+# Sergio Pinilla Ávila <serjudo@gmail.com>, 2021
+# Denys Sarapulov, 2021
 # 
 msgid ""
 msgstr ""
@@ -50,7 +52,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 15:13+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
-"Last-Translator: Miguel Guzmán, 2021\n"
+"Last-Translator: Denys Sarapulov, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,7 +65,7 @@ msgstr ""
 #: code:addons/website/static/src/snippets/s_image_gallery/options.js:0
 #, python-format
 msgid " Add Images"
-msgstr "Añadir Imágenes"
+msgstr "Añadir imágenes"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -353,7 +355,7 @@ msgstr "50%"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
 msgid "50,000+ companies run Odoo to grow their businesses."
-msgstr ""
+msgstr "Más de 50,000 empresas utilizan Odoo para hacer crecer sus negocios."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_hr_options
@@ -456,12 +458,12 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_headline
 msgid "<b>Designed</b> <br/>for Companies"
-msgstr ""
+msgstr "<b>Diseñado</b> <br/>para Empresas"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_descriptive
 msgid "<b>Designed</b> for companies"
-msgstr ""
+msgstr "<b>Diseñado</b> para empresas"
 
 #. module: website
 #. openerp-web
@@ -489,7 +491,7 @@ msgstr ""
 #: code:addons/website/static/src/js/tours/tour_utils.js:0
 #, python-format
 msgid "<b>Select</b> a %s."
-msgstr ""
+msgstr "<b>Selecciona</b> un %s."
 
 #. module: website
 #. openerp-web
@@ -563,7 +565,7 @@ msgstr "<font style=\"font-size: 62px;\">Un titulo llamativo</font>"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_banner
 msgid "<font style=\"font-size: 62px;\">Sell Online. Easily.</font>"
-msgstr ""
+msgstr "<font style=\"font-size: 62px;\">Vende Online. Fácimente.</font>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_carousel
@@ -601,7 +603,7 @@ msgid ""
 "                                            Create a Google Project and Get a Key"
 msgstr ""
 "<i class=\"fa fa-arrow-right\"/>\n"
-"                                            Crea un Proyecto de Google y Obtén una Clave"
+"                                            Cree un proyecto de Google y obtenga una Clave"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -610,7 +612,7 @@ msgid ""
 "                                            Enable billing on your Google Project"
 msgstr ""
 "<i class=\"fa fa-arrow-right\"/>\n"
-"                                            Habilite facturación en su Proyecto de Google"
+"                                            Habilite la facturación en su proyecto de Google"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -619,7 +621,7 @@ msgid ""
 "                                            How to get my Client ID"
 msgstr ""
 "<i class=\"fa fa-arrow-right\"/>\n"
-"                                            Cómo obtener mi ID de Cliente"
+"                                            Cómo obtener mi ID de cliente"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -628,7 +630,7 @@ msgid ""
 "                                            How to get my Tracking ID"
 msgstr ""
 "<i class=\"fa fa-arrow-right\"/>\n"
-"                                            Cómo obtener mi ID de Cliente"
+"                                            Cómo obtener mi ID de seguimiento"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_rating_options
@@ -643,7 +645,7 @@ msgstr "<i class=\"fa fa-fw fa-heart\"/>Corazones"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_rating_options
 msgid "<i class=\"fa fa-fw fa-refresh mr-1\"/> Replace Icon"
-msgstr ""
+msgstr "<i class=\"fa fa-fw fa-refresh mr-1\"/> Sustituir Icono"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_rating_options
@@ -684,6 +686,8 @@ msgid ""
 "<i class=\"fa fa-lock fa-2x\"/><br/>\n"
 "                            <span class=\"mt-1\">A password is required to access this page.</span>"
 msgstr ""
+"<i class=\"fa fa-lock fa-2x\"/><br/>\n"
+"                            <span class=\"mt-1\">Se requiere una contraseña para acceder a esta página.</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.protected_403
@@ -691,6 +695,8 @@ msgid ""
 "<i class=\"fa fa-lock fa-2x\"/><br/>\n"
 "                            <span class=\"mt-1\">Wrong password</span>"
 msgstr ""
+"<i class=\"fa fa-lock fa-2x\"/><br/>\n"
+"                            <span class=\"mt-1\">Password incorrecta</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.company_description_google_map
@@ -777,7 +783,7 @@ msgstr "<p>Ingrese un título para la página.</p>"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_header_magazine_oe_structure_header_magazine_1
 msgid "<small class=\"s_share_title d-none\"><b>Follow us</b></small>"
-msgstr ""
+msgstr "<small class=\"s_share_title d-none\"><b>Síganos</b></small>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_header_contact_oe_structure_header_contact_1
@@ -824,7 +830,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_header_magazine_oe_structure_header_magazine_1
 msgid "<small>We help you grow your business</small>"
-msgstr ""
+msgstr "<small>Le ayudamos a hacer crecer su negocio</small>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_timeline
@@ -927,6 +933,9 @@ msgid ""
 "        <i class=\"fa fa-1x fa-fw fa-folder o_not-animable\"/>Category\n"
 "    </span>"
 msgstr ""
+"<span class=\"s_badge badge badge-secondary o_animable\" data-name=\"Badge\">\n"
+"        <i class=\"fa fa-1x fa-fw fa-folder o_not-animable\"/>Categoría\n"
+"    </span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
@@ -1193,7 +1202,7 @@ msgstr "Acción"
 #: code:addons/website/static/src/js/backend/res_config_settings.js:0
 #, python-format
 msgid "Activate anyway"
-msgstr ""
+msgstr "Activar de todas formas"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_theme_ir_ui_view__active
@@ -1393,7 +1402,7 @@ msgstr "Toda la ruta del sitio web"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_popup_options
 msgid "All pages"
-msgstr ""
+msgstr "Todas las páginas"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_features_grid
@@ -2176,6 +2185,10 @@ msgid ""
 "resize and duplicate the blocks to create your own layout. Add images or "
 "icons to customize the blocks."
 msgstr ""
+"Los bloques de color son una forma simple y efectiva de <b>presentar y "
+"resaltar su contenido</b>. Elija una imagen o un color para el fondo. Puede "
+"cambiar el tamaño y duplicar los bloques para crear su propio diseño. "
+"Agregue imágenes o iconos para personalizar los bloques."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_progress_bar_options
@@ -2354,7 +2367,7 @@ msgstr "Continúa leyendo<i class=\"fa fa-long-arrow-right align-middle ml-1\"/>
 #: model_terms:ir.ui.view,arch_db:website.cookies_bar
 #, python-format
 msgid "Cookie Policy"
-msgstr ""
+msgstr "Política de Cookies"
 
 #. module: website
 #. openerp-web
@@ -2466,7 +2479,7 @@ msgstr "Crea una"
 #: code:addons/website/static/src/xml/website.editor.xml:0
 #, python-format
 msgid "Create a Google Project and Get a Key"
-msgstr "Crear proyecto de Google y obtener una clave"
+msgstr "Cree un proyecto de Google y obtenga una clave"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -3271,7 +3284,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.editor.xml:0
 #, python-format
 msgid "Enable billing on your Google Project"
-msgstr ""
+msgstr "Habilite la facturación en su proyecto de Google"
 
 #. module: website
 #. openerp-web
@@ -4210,7 +4223,7 @@ msgstr "Híbrido"
 #: model_terms:ir.ui.view,arch_db:website.cookies_bar
 #, python-format
 msgid "I agree"
-msgstr ""
+msgstr "Acepto"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_base_language_install__id
@@ -6850,7 +6863,7 @@ msgstr "Sólido"
 #: code:addons/website/static/src/xml/website.pageProperties.xml:0
 #, python-format
 msgid "Some Users"
-msgstr ""
+msgstr "Algunos usuarios"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -7471,7 +7484,7 @@ msgid ""
 "in url. Keep it empty to use the default name of the record."
 msgstr ""
 "Este valor será codificado para cumplir con todos los principales "
-"navegadores y ser usado en url. Mantenlo vacío para usar el nombre "
+"navegadores y ser usado en la URL. Manténgalo vacío para usar el nombre "
 "predeterminado del registro."
 
 #. module: website

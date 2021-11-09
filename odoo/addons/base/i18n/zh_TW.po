@@ -9,7 +9,8 @@
 # zhengwei wu <wzw15199@gmail.com>, 2020
 # Mandy Choy <mnc@odoo.com>, 2021
 # JustinC <dev@dottdot.com>, 2021
-# Benson White <Benson.Dr@Gmail.com>, 2021
+# Benson <Benson.Dr@Gmail.com>, 2021
+# Tom Liang <tom.liang@omniwaresoft.com.tw>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
 # 
 msgid ""
@@ -9142,22 +9143,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid ""
 "<span class=\"o_form_label o_td_label\" name=\"address_name\">\n"
-"                                <b attrs=\"{'invisible': [('company_type', '!=', 'company')]}\">Company Address</b>\n"
-"                                <b attrs=\"{'invisible': ['|', ('type', '!=', 'invoice'), ('company_type', '=', 'company')]}\">Invoice Address</b>\n"
-"                                <b attrs=\"{'invisible': ['|', ('type', '!=', 'delivery'), ('company_type', '=', 'company')]}\">Delivery Address</b>\n"
-"                                <b attrs=\"{'invisible': ['|', ('type', '!=', 'other'), ('company_type', '=', 'company')]}\">Other Address</b>\n"
-"                                <b attrs=\"{'invisible': ['|', ('type', '!=', 'private'), ('company_type', '=', 'company')]}\">Private Address</b>\n"
-"                                <b attrs=\"{'invisible': ['|', ('type', 'not in', (False, 'contact')), ('company_type', '=', 'company')]}\">Address</b>\n"
+"                                <b attrs=\"{'invisible': ['|', ('parent_id', '=', False), ('type', '!=', 'contact')]}\">Company Address</b>\n"
+"                                <b attrs=\"{'invisible': ['|', ('parent_id', '=', False), ('type', '!=', 'invoice')]}\">Invoice Address</b>\n"
+"                                <b attrs=\"{'invisible': ['|', ('parent_id', '=', False), ('type', '!=', 'delivery')]}\">Delivery Address</b>\n"
+"                                <b attrs=\"{'invisible': ['|', ('parent_id', '=', False), ('type', '!=', 'other')]}\">Other Address</b>\n"
+"                                <b attrs=\"{'invisible': ['|', ('parent_id', '=', False), ('type', '!=', 'private')]}\">Private Address</b>\n"
+"                                <b attrs=\"{'invisible': ['&amp;', ('parent_id', '!=', False), ('type', '!=', False)]}\">Address</b>\n"
 "                            </span>"
 msgstr ""
-"<span class=\"o_form_label o_td_label\" name=\"address_name\">\n"
-"                                <b attrs=\"{'invisible': [('company_type', '!=', 'company')]}\">公司地址</b>\n"
-"                                <b attrs=\"{'invisible': ['|', ('type', '!=', 'invoice'), ('company_type', '=', 'company')]}\">發票地址< /b>\n"
-"                                <b attrs=\"{'invisible': ['|', ('type', '!=', 'delivery'), ('company_type', '=', 'company')]}\">送貨地址< /b>\n"
-"                                <b attrs=\"{'invisible': ['|', ('type', '!=', 'other'), ('company_type', '=', 'company')]}\">其他地址< /b>\n"
-"                                <b attrs=\"{'invisible': ['|', ('type', '!=', 'private'), ('company_type', '=', 'company')]}\">私人地址< /b>\n"
-"                                <b attrs=\"{'invisible': ['|', ('type', 'not in', (False, 'contact')), ('company_type', '=', 'company')]}\" >地址</b>\n"
-"                            </span>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_update
@@ -10755,7 +10748,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_website_sms
 msgid "Allows to send sms to website visitor"
-msgstr ""
+msgstr "允許向網站訪客傳送SMS"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_crm_sms
@@ -10837,7 +10830,7 @@ msgstr "自動安裝模組是指當它的所有依賴滿足時系統會自動安
 #: code:addons/base/models/res_partner.py:0
 #, python-format
 msgid "An email is required for find_or_create to work"
-msgstr ""
+msgstr "find_or_create 需要電子郵件才能運作"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_analytic
@@ -11102,7 +11095,7 @@ msgstr "阿魯巴"
 #: model_terms:res.partner,website_description:base.res_partner_3
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "As a team, we are happy to contribute to this event."
-msgstr ""
+msgstr "作為一個團隊，我們很高興為這次活動做出貢獻。"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_appraisal
@@ -11133,7 +11126,7 @@ msgstr "至少要啟用一種語言."
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_attachment
 msgid "Attach a new document"
-msgstr ""
+msgstr "附加新的文件"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_attachment_form
@@ -11257,12 +11250,12 @@ msgstr "Authorize.Net付款"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module_dependency__auto_install_required
 msgid "Auto Install Required"
-msgstr ""
+msgstr "需要自動安裝"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_partner_autocomplete
 msgid "Auto-complete partner companies' data"
-msgstr ""
+msgstr "自動完成聯繫人公司的資料"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_automation
@@ -12187,7 +12180,7 @@ msgstr "無法聚合欄位 %r."
 msgid ""
 "Cannot create new '%s' records from their name alone. Please create those "
 "records manually and try importing again."
-msgstr ""
+msgstr "無法僅從名稱創建新的 '1%s' 紀錄。請手動創建這些紀錄並再次嘗試匯入。"
 
 #. module: base
 #: code:addons/base/models/res_lang.py:0
@@ -12634,7 +12627,7 @@ msgstr "欄位指向在model表中的記錄"
 #: model_terms:res.partner,website_description:base.res_partner_3
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Come see us live, we hope to meet you !"
-msgstr ""
+msgstr "來看看我們的直播，我們希望見到你！"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__report_paperformat__format__comm10e
@@ -12968,7 +12961,7 @@ msgstr ""
 #: code:addons/base/models/ir_mail_server.py:0
 #, python-format
 msgid "Connection Test Succeeded!"
-msgstr ""
+msgstr "連接測試成功！"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_consolidation
@@ -13967,7 +13960,7 @@ msgstr "天數"
 #: model:ir.module.module,shortdesc:base.module_account_debit_note
 #: model:ir.module.module,summary:base.module_account_debit_note
 msgid "Debit Notes"
-msgstr ""
+msgstr "借方備註"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_mail_server__smtp_debug
@@ -15004,7 +14997,7 @@ msgstr "電郵市場行銷"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__signature
 msgid "Email Signature"
-msgstr ""
+msgstr "電子郵件簽名"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__employee
@@ -16184,7 +16177,7 @@ msgstr "出於安全原因，您不能在一起合併超過 3 聯繫人.如果�
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.identity_check_wizard
 msgid "Forgot password?"
-msgstr ""
+msgstr "忘記密碼？"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_actions_act_window_view__view_mode__form
@@ -16870,7 +16863,7 @@ msgstr "處理員工的午餐訂單"
 #: model_terms:res.partner,website_description:base.res_partner_3
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Happy to be Sponsor"
-msgstr ""
+msgstr "很高興成為贊助商"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_escpos
@@ -18209,6 +18202,8 @@ msgid ""
 "Invalid server name !\n"
 " %s"
 msgstr ""
+"伺服器名稱無效！\n"
+" %s"
 
 #. module: base
 #: code:addons/base/models/ir_ui_view.py:0
@@ -19129,7 +19124,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__link_field_id
 #: model:ir.model.fields,field_description:base.field_ir_cron__link_field_id
 msgid "Link Field"
-msgstr ""
+msgstr "連結欄位"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_link_tracker
@@ -20119,7 +20114,7 @@ msgstr "缺少 SMTP 伺服器"
 #: code:addons/models.py:0
 #, python-format
 msgid "Missing required value for the field '%s'"
-msgstr ""
+msgstr "找不到欄位 '%s' 所需的值"
 
 #. module: base
 #: code:addons/models.py:0
@@ -20790,7 +20785,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.open_module_tree
 msgid "No module found!"
-msgstr ""
+msgstr "找不到模組！"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__view_ids
@@ -23266,7 +23261,7 @@ msgstr "出向郵件伺服器"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_microsoft_calendar
 msgid "Outlook Calendar"
-msgstr ""
+msgstr "Outlook 行事曆"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_report_paperformat__dpi
@@ -24240,7 +24235,7 @@ msgstr "潛在客戶"
 msgid ""
 "Provide the field used to link the newly created record on the record used "
 "by the server action."
-msgstr ""
+msgstr "提供用於鏈接服務器操作使用的記錄上新創建的記錄的字段。"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_mobile
@@ -25659,7 +25654,7 @@ msgstr "安全"
 #: model_terms:ir.ui.view,arch_db:base.identity_check_wizard
 #, python-format
 msgid "Security Control"
-msgstr ""
+msgstr "資訊安全控制"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.ir_mail_server_form
@@ -25963,6 +25958,8 @@ msgid ""
 "Server replied with following exception:\n"
 " %s"
 msgstr ""
+"伺服器回覆以下異常：\n"
+" %s"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_services
@@ -26271,7 +26268,7 @@ msgstr ""
 #: code:addons/base/models/ir_attachment.py:0
 #, python-format
 msgid "Sorry, you are not allowed to access these fields on attachments."
-msgstr ""
+msgstr "對不起，您沒有存取附件中這些欄位的權限。"
 
 #. module: base
 #: code:addons/base/models/ir_attachment.py:0
@@ -26284,7 +26281,7 @@ msgstr "對不起，您沒有存取此文件的權限。"
 #: code:addons/base/models/ir_attachment.py:0
 #, python-format
 msgid "Sorry, you must provide fields to read on attachments"
-msgstr ""
+msgstr "對不起，您必須提供欲在附件中讀取的欄位。"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_filters__sort
@@ -27447,7 +27444,7 @@ msgstr "唯一預設的變量是"
 #: code:addons/model.py:0
 #, python-format
 msgid "The operation cannot be completed:"
-msgstr ""
+msgstr "操作無法完成："
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields__domain
@@ -27618,7 +27615,7 @@ msgstr "佈景主題"
 #: model:ir.ui.menu,name:base.menu_theme_store
 #: model:ir.ui.menu,name:base.theme_store
 msgid "Theme Store"
-msgstr ""
+msgstr "主題商店"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
@@ -27637,7 +27634,7 @@ msgstr "這是一個%(model)s的共享篩選，請在上處或者修改前設定
 #: model:ir.actions.act_url,name:base.action_third_party
 #: model:ir.ui.menu,name:base.menu_third_party
 msgid "Third-Party Apps"
-msgstr ""
+msgstr "第三方應用"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_lang__iso_code
@@ -28707,7 +28704,7 @@ msgstr "無法識別的延伸名後綴名: 規定為 .csv, 或.po, 或 .tgz格�
 #: code:addons/base/static/src/js/res_config_settings.js:0
 #, python-format
 msgid "Unsaved changes"
-msgstr ""
+msgstr "未儲存的變更"
 
 #. module: base
 #: code:addons/base/models/ir_ui_view.py:0
@@ -28864,7 +28861,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_account_tax_python
 msgid "Use python code to define taxes"
-msgstr ""
+msgstr "使用python程式碼定義税"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence__use_date_range
